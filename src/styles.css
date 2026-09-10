@@ -1,0 +1,21 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,system-ui,sans-serif;background:#f3f6fb;color:#162033}.page{min-height:100vh;padding:28px 16px}.app{width:min(900px,100%);margin:auto}header{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:20px}h1{margin:0;font-size:30px}header p{color:#667085;margin:6px 0 0 0}.status{background:#fff;padding:9px 12px;border-radius:999px;font-size:12px;color:#475467;white-space:nowrap}.status i{display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:6px}.status.off i{background:#f59e0b}.card,.contact,.empty{background:#fff;border-radius:18px;padding:20px;box-shadow:0 4px 20px #1018280f}.card h2{margin-top:0}form{display:grid;gap:12px}label{display:grid;gap:6px;font-size:13px;font-weight:700}input,select,textarea{height:46px;border:1px solid #d0d5dd;border-radius:11px;padding:0 13px;font-size:15px;outline:0;background:#fff;font-family:inherit}textarea{height:auto;min-height:75px;padding:10px 13px}input:focus,select:focus,textarea:focus{border-color:#2563eb}.buttons{display:flex;gap:9px}.buttons button{flex:1}.primary{background:#2563eb!important;color:#fff}button{border:0;border-radius:10px;padding:11px 15px;background:#eef2f6;cursor:pointer;font-weight:700}.card small{display:block;color:#667085;margin-top:12px}.listTitle{margin-top:22px}.listTitle b{font-size:12px;background:#dbeafe;color:#1d4ed8;border-radius:20px;padding:4px 8px}.list{display:grid;gap:10px}.contact{display:flex;gap:13px;align-items:center;padding:15px}.avatar{width:48px;height:48px;flex:none;border-radius:50%;display:grid;place-items:center;background:#dbeafe;color:#1d4ed8;font-weight:800;font-size:19px}.data{flex:1}.data h3{margin:0 0 5px}.data p{font-size:12px;color:#667085;margin:2px 0}.data small{color:#b54708}.actions{display:flex;flex-direction:column;gap:5px}.actions button{padding:5px 8px;background:transparent;color:#2563eb;font-size:12px}.actions .danger{color:#dc2626}.empty{text-align:center;padding:45px 20px;color:#667085}.empty strong{display:block;color:#344054;margin-top:8px}.empty p{font-size:13px}@media(max-width:650px){.page{padding:16px 12px}header{flex-direction:column}.status{align-self:stretch;text-align:center}.contact{align-items:flex-start}.actions{margin-left:auto}}
+
+/* Estilos para abas de navegação e novas entidades */
+.tabs{display:flex;gap:8px;margin-bottom:20px;overflow-x:auto;padding-bottom:4px}
+.tab-btn{background:#fff;border:1px solid #d0d5dd;border-radius:10px;padding:10px 16px;font-size:14px;cursor:pointer;color:#344054;white-space:nowrap;transition:all .2s;font-weight:600}
+.tab-btn.active{background:#2563eb;color:#fff;border-color:#2563eb}
+.config-alert{background:#eff6ff;border:1px solid #bfdbfe;color:#1e40af;padding:14px 18px;border-radius:12px;margin-bottom:20px;font-size:14px;line-height:1.5}
+.config-alert code{background:#dbeafe;padding:2px 6px;border-radius:4px;font-family:monospace}
+.badge{display:inline-block;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:700;text-transform:uppercase}
+.badge-disponivel{background:#dcfce7;color:#15803d}
+.badge-em_uso{background:#fef3c7;color:#b45309}
+.badge-manutencao{background:#fee2e2;color:#b91c1c}
+.badge-confirmada{background:#dbeafe;color:#1d4ed8}
+.badge-cancelada{background:#f3f4f6;color:#6b7280}
+.badge-em_andamento{background:#fef3c7;color:#b45309}
+.badge-devolvido{background:#dcfce7;color:#15803d}
+.badge-aluno{background:#e0e7ff;color:#4338ca}
+.badge-professor{background:#fce7f3;color:#9d174d}
+.badge-admin{background:#ede9fe;color:#6d28d9}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
